@@ -90,6 +90,15 @@ When they say lock: write a 1-page brief into the project's `docs/` (problem, us
 - Killed ideas go to `graveyard.md` (one line: idea, reason).
 - New rules or taste learned go to `taste.md`.
 
+## Asking the user
+This skill runs on the user's input: the Step 0 questions, the Step 1 questions, picking problems, and yes/no on finalists. If the harness has a structured question tool (Claude Code: `AskUserQuestion`), use it for these so the user can click instead of typing; otherwise ask in plain text. Never answer the questions on the user's behalf.
+
+## Handoff after lock (only if those skills are installed)
+- Second opinion on the locked idea: `llm-council`.
+- Turn the brief into a spec and a build plan: `superpowers:brainstorming`, then `superpowers:writing-plans`.
+- Pick the visual style for the demo: `ui-ux-pro-max`; build and polish it: `impeccable`.
+Suggest the next one; don't chain them automatically.
+
 ## Behavior rules
 - Rejection is data, not a stop signal. After a "no", name the rule it broke, update the filter, and bring a fresh batch from a different angle.
 - Separate the problem from the idea. Agree on the problem first.

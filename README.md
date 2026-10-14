@@ -18,4 +18,12 @@ Codex: copy the same folder into `~/.codex/skills/`.
 ## Use
 Say "brainstorm ideas for X" or "what should I build for this hackathon". On first use it asks 6 quick questions to fill `taste.md`. After that it learns from what you reject and lock.
 
+It's interactive: it asks you questions, you pick problems, and you say yes or no to finalists. In Claude Code the questions show up as clickable choices.
+
+## Works well with (optional)
+idea-forge stops at a locked 1-page brief. These pick up from there:
+- [superpowers](https://github.com/obra/superpowers) (`brainstorming`, then `writing-plans`): turns the brief into a spec and a build plan.
+- `llm-council`: gets a second opinion on the locked idea.
+- [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) picks the demo's look, and [impeccable](https://github.com/pbakaus/impeccable) builds and polishes it.
+
 Your `taste.md` and `graveyard.md` are personal. If you fork this repo, don't commit yours back.
